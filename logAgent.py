@@ -3,7 +3,7 @@ from typing import List, Optional, Annotated
 from typing_extensions import TypedDict
 from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 import streamlit as st
 
 # set your OpenAI API key
